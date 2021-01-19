@@ -10,7 +10,7 @@
             "name": "Attach to Chrome",
             "port": 9222,
             "webRoot": "${workspaceFolder}/src",
-            "url": "https://calendar.google.com/calendar/u/0/r" //<-- this url must ...
+            "url": "https://byui.instructure.com" //<-- this url must ...
             // ... match exactly the one in the address bar of the browser
             //
             // https://stackoverflow.com/questions/42025962/debug-chrome-extensions-with-visual-studio-code
@@ -19,10 +19,10 @@
             // ... the right place
             // 
             // In sumary ... just open chrome with:
-            // google-chrome --remote-debugging-port=9222 https://calendar.google.com/
+            // google-chrome --remote-debugging-port=9222 https://byui.instructure.com
             //
             // Or you can launch a specific app configured like:
-            // google-chrome --remote-debugging-port=9222 "--profile-directory=Profile 1" --app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep
+            // google-chrome --remote-debugging-port=9222 --profile-directory=Default --app-id=pbpafnmopikjjghikebbfcghjcnokgme
             // before debugging with this option
             // 
             // TO APPLY CHANGES ONLY CLOSE THE BROWSER AND LAUNCH IT AGAIN
