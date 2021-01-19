@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Canvas Right Panel Keeper",
   "description": "Canvas Right Panel Keeper",
-  "version": "1.0.2",
+  "version": "1.0.3",
 	"browser_action": {
     	"default_icon": "canvas16.png",
     	"default_popup": "popup.html"
@@ -16,6 +16,7 @@
         "*://byui.instructure.com/*"
       ],
       "js": [
+        "jquery-3.4.1.min.js",
         "content.js"
       ]
     }
