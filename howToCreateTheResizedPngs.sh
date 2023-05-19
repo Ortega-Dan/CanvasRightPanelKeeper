@@ -1,0 +1,1 @@
+gm convert canvas.png -resize 48x48 canvas48.png
