@@ -1,7 +1,7 @@
 
 
 // Listening to keypress events in the entire document
-$("html").keypress(function (event) {
+document.addEventListener('keypress', function (event) {
 
     // Running functionality con Ctrl + i or Ctrl + k (case insensitive)
     if (event.ctrlKey === true && event.code === "KeyI") {
